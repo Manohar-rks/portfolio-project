@@ -6,40 +6,25 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order processing.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      technologies: ["React", "TypeScript", "OpenWeather API", "Chart.js"],
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "A comprehensive social media analytics dashboard with real-time data visualization and performance metrics.",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Chart.js"],
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Learning Management System",
-      description: "An educational platform with course management, student progress tracking, and interactive learning modules.",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-      image: "/placeholder.svg"
+      title: "Python Calculator",
+      description: "A feature-rich calculator application built with Python and Tkinter. Includes basic arithmetic operations, scientific functions, and a user-friendly GUI interface.",
+      technologies: ["Python", "Tkinter", "GUI Development"],
+      image: "/placeholder.svg",
+      githubUrl: "https://github.com/yourusername/python-calculator"
     },
     {
       title: "Portfolio Website",
-      description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and modern design.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      image: "/placeholder.svg"
+      description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and modern design built with React and Tailwind CSS.",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Responsive Design"],
+      image: "/placeholder.svg",
+      githubUrl: "https://github.com/yourusername/portfolio-website"
+    },
+    {
+      title: "Password Generator",
+      description: "A secure password generator with customizable options for length, character types, and complexity. Built with modern web technologies for enhanced security.",
+      technologies: ["JavaScript", "HTML", "CSS", "Security"],
+      image: "/placeholder.svg",
+      githubUrl: "https://github.com/yourusername/password-generator"
     }
   ];
 
@@ -70,9 +55,11 @@ const Projects = () => {
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Live Demo
                     </Button>
-                    <Button size="sm" variant="secondary">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
+                    <Button size="sm" variant="secondary" asChild>
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4 mr-2" />
+                        Code
+                      </a>
                     </Button>
                   </div>
                 </div>

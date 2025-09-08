@@ -33,10 +33,10 @@ const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => scrollToSection('contact')}
+              asChild
               className="px-8 py-3"
             >
-              Get In Touch
+              <a href="mailto:manohar.r.k.s.139@gmail.com">Get In Touch</a>
             </Button>
           </div>
           <div className="flex justify-center space-x-6">
