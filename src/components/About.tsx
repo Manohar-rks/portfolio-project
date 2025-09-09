@@ -1,32 +1,24 @@
 import { Card } from "@/components/ui/card";
 import { Code, Palette, Zap, Users } from "lucide-react";
-
 const About = () => {
-  const values = [
-    {
-      icon: Code,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable, and efficient code following best practices."
-    },
-    {
-      icon: Palette,
-      title: "Creative Design",
-      description: "Crafting beautiful and intuitive user interfaces that enhance user experience."
-    },
-    {
-      icon: Zap,
-      title: "Fast Performance",
-      description: "Optimizing applications for speed and performance across all devices."
-    },
-    {
-      icon: Users,
-      title: "Team Player",
-      description: "Collaborating effectively with cross-functional teams to deliver results."
-    }
-  ];
-
-  return (
-    <section id="about" className="py-20 bg-muted/30">
+  const values = [{
+    icon: Code,
+    title: "Clean Code",
+    description: "Writing maintainable, scalable, and efficient code following best practices."
+  }, {
+    icon: Palette,
+    title: "Creative Design",
+    description: "Crafting beautiful and intuitive user interfaces that enhance user experience."
+  }, {
+    icon: Zap,
+    title: "Fast Performance",
+    description: "Optimizing applications for speed and performance across all devices."
+  }, {
+    icon: Users,
+    title: "Team Player",
+    description: "Collaborating effectively with cross-functional teams to deliver results."
+  }];
+  return <section id="about" className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -54,19 +46,9 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {values.map((value, index) => (
-            <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <value.icon className="h-8 w-8 text-primary" />
-              </div>
-              <h4 className="text-xl font-semibold mb-3">{value.title}</h4>
-              <p className="text-muted-foreground">{value.description}</p>
-            </Card>
-          ))}
+          {values.map((value, index) => {})}
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
