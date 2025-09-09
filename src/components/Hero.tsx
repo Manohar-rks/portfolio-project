@@ -36,7 +36,7 @@ const Hero = () => {
               asChild
               className="px-8 py-3"
             >
-              <a href="mailto:manohar.r.k.s.139@gmail.com">Get In Touch</a>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             </Button>
           </div>
           <div className="flex justify-center space-x-6">

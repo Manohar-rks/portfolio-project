@@ -9,21 +9,21 @@ const Projects = () => {
       title: "Python Calculator",
       description: "A feature-rich calculator application built with Python and Tkinter. Includes basic arithmetic operations, scientific functions, and a user-friendly GUI interface.",
       technologies: ["Python", "Tkinter", "GUI Development"],
-      image: "/placeholder.svg",
+      image: "/src/assets/python-calculator.jpg",
       githubUrl: "https://github.com/Manohar-rks"
     },
     {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and modern design built with React and Tailwind CSS.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Responsive Design"],
-      image: "/placeholder.svg",
+      image: "/src/assets/portfolio-website.jpg",
       githubUrl: "https://github.com/Manohar-rks"
     },
     {
       title: "Password Generator",
       description: "A secure password generator with customizable options for length, character types, and complexity. Built with modern web technologies for enhanced security.",
       technologies: ["JavaScript", "HTML", "CSS", "Security"],
-      image: "/placeholder.svg",
+      image: "/src/assets/password-generator.jpg",
       githubUrl: "https://github.com/Manohar-rks"
     }
   ];
@@ -50,11 +50,7 @@ const Projects = () => {
                     alt={project.title}
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
-                    <Button size="sm" variant="secondary">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Live Demo
-                    </Button>
+                  <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <Button size="sm" variant="secondary" asChild>
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="h-4 w-4 mr-2" />
