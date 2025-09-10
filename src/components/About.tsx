@@ -59,58 +59,6 @@ const About = () => {
           ))}
         </div>
 
-        <div className="mt-20">
-          <h3 className="text-3xl font-bold mb-12 text-center">My Work Showcase</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="group overflow-hidden border-0 bg-gradient-to-br from-primary/5 to-primary/10 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-              <div className="p-6 text-center">
-                <div className="mb-4 flex justify-center">
-                  <div className="p-4 rounded-full bg-gradient-to-br from-primary to-primary/80 text-primary-foreground group-hover:scale-110 transition-transform duration-300">
-                    <Code className="h-10 w-10" />
-                  </div>
-                </div>
-                <h4 className="text-2xl font-bold mb-2">50+</h4>
-                <p className="text-muted-foreground font-medium">Projects Completed</p>
-              </div>
-            </Card>
-
-            <Card className="group overflow-hidden border-0 bg-gradient-to-br from-secondary/5 to-secondary/10 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-              <div className="p-6 text-center">
-                <div className="mb-4 flex justify-center">
-                  <div className="p-4 rounded-full bg-gradient-to-br from-secondary to-secondary/80 text-secondary-foreground group-hover:scale-110 transition-transform duration-300">
-                    <Zap className="h-10 w-10" />
-                  </div>
-                </div>
-                <h4 className="text-2xl font-bold mb-2">95%</h4>
-                <p className="text-muted-foreground font-medium">Client Satisfaction</p>
-              </div>
-            </Card>
-
-            <Card className="group overflow-hidden border-0 bg-gradient-to-br from-accent/5 to-accent/10 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-              <div className="p-6 text-center">
-                <div className="mb-4 flex justify-center">
-                  <div className="p-4 rounded-full bg-gradient-to-br from-accent to-accent/80 text-accent-foreground group-hover:scale-110 transition-transform duration-300">
-                    <Palette className="h-10 w-10" />
-                  </div>
-                </div>
-                <h4 className="text-2xl font-bold mb-2">3+</h4>
-                <p className="text-muted-foreground font-medium">Years Experience</p>
-              </div>
-            </Card>
-
-            <Card className="group overflow-hidden border-0 bg-gradient-to-br from-destructive/5 to-destructive/10 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-              <div className="p-6 text-center">
-                <div className="mb-4 flex justify-center">
-                  <div className="p-4 rounded-full bg-gradient-to-br from-destructive to-destructive/80 text-destructive-foreground group-hover:scale-110 transition-transform duration-300">
-                    <Users className="h-10 w-10" />
-                  </div>
-                </div>
-                <h4 className="text-2xl font-bold mb-2">100+</h4>
-                <p className="text-muted-foreground font-medium">Happy Clients</p>
-              </div>
-            </Card>
-          </div>
-        </div>
       </div>
     </section>;
 };

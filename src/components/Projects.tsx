@@ -43,35 +43,31 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300">
-              <CardHeader className="p-0">
-                <div className="relative overflow-hidden rounded-t-lg">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <Button size="sm" variant="secondary" asChild>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4 mr-2" />
-                        Code
-                      </a>
-                    </Button>
+              <CardHeader className="p-6">
+                <div className="flex justify-center mb-4">
+                  <div className="p-6 rounded-full bg-muted">
+                    <Github className="h-16 w-16 text-muted-foreground" />
                   </div>
                 </div>
               </CardHeader>
-              <CardContent className="p-6">
+              <CardContent className="p-6 pt-0">
                 <h3 className="text-xl font-bold mb-3">{project.title}</h3>
                 <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
                   {project.description}
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (
                     <Badge key={techIndex} variant="secondary" className="text-xs">
                       {tech}
                     </Badge>
                   ))}
                 </div>
+                <Button size="sm" variant="outline" asChild className="w-full">
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                    <Github className="h-4 w-4 mr-2" />
+                    View Code
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           ))}
