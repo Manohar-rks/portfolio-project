@@ -9,21 +9,21 @@ const Projects = () => {
       title: "Python Calculator",
       description: "A feature-rich calculator application built with Python and Tkinter. Includes basic arithmetic operations, scientific functions, and a user-friendly GUI interface.",
       technologies: ["Python", "Tkinter", "GUI Development"],
-      image: "/src/assets/python-calculator.jpg",
+      image: "/python-calculator.jpg",
       githubUrl: "https://github.com/Manohar-rks"
     },
     {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing projects and skills with smooth animations and modern design built with React and Tailwind CSS.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Responsive Design"],
-      image: "/src/assets/portfolio-website.jpg",
+      image: "/portfolio-website.jpg",
       githubUrl: "https://github.com/Manohar-rks"
     },
     {
       title: "Password Generator",
       description: "A secure password generator with customizable options for length, character types, and complexity. Built with modern web technologies for enhanced security.",
       technologies: ["JavaScript", "HTML", "CSS", "Security"],
-      image: "/src/assets/password-generator.jpg",
+      image: "/password-generator.jpg",
       githubUrl: "https://github.com/Manohar-rks"
     }
   ];
