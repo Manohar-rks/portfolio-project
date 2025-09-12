@@ -44,7 +44,7 @@ const Skills = () => {
             My <span className="text-primary">Skills</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Technologies and tools I use to bring ideas to life
+            Programming languages and tools I use to build software solutions
           </p>
         </div>
 

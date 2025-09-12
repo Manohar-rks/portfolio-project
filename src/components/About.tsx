@@ -25,22 +25,22 @@ const About = () => {
             About <span className="text-primary">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate developer with a love for creating digital solutions that make a difference
+            Passionate programmer with a love for creating software solutions that make a difference
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-16">
-          <h3 className="text-3xl font-bold mb-8">Crafting Digital Experiences</h3>
+          <h3 className="text-3xl font-bold mb-8">Building Software Solutions</h3>
           <div className="space-y-6 text-lg text-muted-foreground">
             <p>
               I am currently pursuing a Bachelor of Technology in Computer Science and Engineering. 
-              I am passionate about programming, web development, and building practical projects. 
-              Through my studies, I aim to enhance my technical skills and apply them in real-world applications.
+              I am passionate about programming, algorithm design, and building efficient software applications. 
+              Through my studies, I aim to enhance my programming skills and apply them in real-world problem solving.
             </p>
             <p>
-              I believe in continuous learning and staying up-to-date with industry trends. When I'm not coding, 
-              you can find me exploring new technologies, contributing to open-source projects, or sharing 
-              knowledge with the developer community.
+              I believe in continuous learning and staying up-to-date with programming languages and frameworks. When I'm not coding, 
+              you can find me exploring new programming paradigms, contributing to open-source projects, or sharing 
+              knowledge with the programming community.
             </p>
           </div>
         </div>

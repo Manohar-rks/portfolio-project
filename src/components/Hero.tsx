@@ -19,8 +19,8 @@ const Hero = () => {
             Programmer & Ethical Hacker
           </p>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-            I create exceptional digital experiences through innovative web development,
-            combining cutting-edge technology with beautiful design to bring ideas to life.
+            I develop efficient and scalable software solutions through innovative programming,
+            combining algorithmic thinking with clean code practices to solve complex problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button
