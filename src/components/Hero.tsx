@@ -16,7 +16,7 @@ const Hero = () => {
             <span className="text-primary">Reddy Krishna Satya Manohar</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Full Stack Developer & Ethical Hacker
+            Programmer & Ethical Hacker
           </p>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
             I create exceptional digital experiences through innovative web development,

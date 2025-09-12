@@ -4,33 +4,34 @@ import { Progress } from "@/components/ui/progress";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Programming Languages",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Vue.js", level: 80 }
+        { name: "C", level: 95 },
+        { name: "Java", level: 30 },
+        { name: "Python", level: 70 }
       ]
     },
     {
-      title: "Backend",
+      title: "Web Development", 
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 85 },
-        { name: "PostgreSQL", level: 82 },
-        { name: "MongoDB", level: 80 },
-        { name: "GraphQL", level: 75 }
+        { name: "HTML/CSS", level: 95 },
+        { name: "React.js", level: 70 },
+        { name: "Node.js", level: 30 }
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Databases & Tools",
       skills: [
-        { name: "Git", level: 95 },
-        { name: "Docker", level: 78 },
-        { name: "AWS", level: 72 },
-        { name: "Figma", level: 85 },
-        { name: "Jest", level: 80 }
+        { name: "GitHub", level: 95 },
+        { name: "VS Code", level: 95 }
+      ]
+    },
+    {
+      title: "Core Concepts",
+      skills: [
+        { name: "Operating Systems", level: 95 },
+        { name: "Object-Oriented Programming", level: 70 },
+        { name: "Database Management", level: 30 }
       ]
     }
   ];
